@@ -120,7 +120,7 @@ for i in dates:
         if os.path.isdir(msbas_merge_dir):
             print('MSBAS/merged dir already exists')
         else:
-            os.mksir(msbas_merge_dir)
+            os.mkdir(msbas_merge_dir)
         ## ##      ## ## 
             
         print('Creating and copying original filelist')
