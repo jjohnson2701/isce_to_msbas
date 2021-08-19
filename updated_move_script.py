@@ -192,9 +192,9 @@ for i in dates:
             
             safe_files = glob.glob(os.path.join(i,'*.SAFE'))
             for s in safe_files:
-            shutil.move(s,remove_directory_name)
+            	shutil.move(s,remove_directory_name)
             
-            shutil.rmtree(remove_directory_name)
+            	shutil.rmtree(remove_directory_name)
         else:
             print('remove_flag must be 1 or 0')
       
